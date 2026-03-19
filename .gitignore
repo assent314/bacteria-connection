@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+<<<<<<< HEAD
+*.py[cod]
+=======
 *.py[codz]
+>>>>>>> 4224c6d76db64b04b31b3ee2708ad49543755d28
 *$py.class
 
 # C extensions
@@ -19,6 +23,10 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
+*.egg-info/
+*.egg
+=======
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -31,13 +39,17 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+>>>>>>> 4224c6d76db64b04b31b3ee2708ad49543755d28
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+<<<<<<< HEAD
+=======
 htmlcov/
+>>>>>>> 4224c6d76db64b04b31b3ee2708ad49543755d28
 .tox/
 .nox/
 .coverage
@@ -46,6 +58,38 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
+hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+
+# IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# Output and large data
+outputs/
+Bacteria_Analysis_Reports/
+data/
+
+# Secrets
+.env
+=======
 *.py.cover
 .hypothesis/
 .pytest_cache/
@@ -205,3 +249,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+>>>>>>> 4224c6d76db64b04b31b3ee2708ad49543755d28
