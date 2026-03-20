@@ -70,7 +70,16 @@ python src/main.py
 Global_Summary_Analysis/: 跨菌株的比对热力图和汇总表。
 
 [菌名]_Report/: 单个菌株的独立分析图表。
-
+输出结果示例：
+单个菌株（以FN与CRC为例）：
+！[]()
+！[]()
+！[]()
+[]
+跨菌株汇总（以CRC为例）：
+！[堆叠图](C:\Users\60157\Desktop\BioMiner\src\Bacteria_Analysis_Reports\Global_Summary_Analysis\global_comparison_bar.png)
+！[热力图](C:\Users\60157\Desktop\BioMiner\src\Bacteria_Analysis_Reports\Global_Summary_Analysis\global_mechanism_heatmap.png)
+！[词云图](C:\Users\60157\Desktop\BioMiner\src\Bacteria_Analysis_Reports\Global_Summary_Analysis\global_mechanism_wordcloud.png)
 ## 贡献与致谢
 作者: assent314
 
